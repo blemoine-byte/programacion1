@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-image: url('../img/home.jpg');
+    background-size: 75%;
+    background-position: right top;
+    background-repeat: no-repeat;
+    
+
+}
+
+nav{
+    font-size: 30px;
+    font-family:  'Open Sans' ;
+    margin-left: 2cm;
+    color: black;
+    
+
+}
+ul{
+    list-style: none;
+}
+
+h2{
+    margin-top: 15%;
+    margin-left: 1cm;
+    font-family: 'work sans' ;
+    font-size: 50px;
+}
+
+h3{
+    background-color: rgba(0, 0, 0, 0.211);
+    margin-top: 6%;
+    font-family:'raleway';
+    font-size: 80px;
+}
