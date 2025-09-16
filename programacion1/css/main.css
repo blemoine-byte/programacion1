@@ -1,0 +1,150 @@
+
+header{
+    background-color: #e68e8e;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.buscador{
+    background-color: #e68e8e;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-logo{
+    margin-left: 15px;
+    width: 125px;
+    height: auto ;
+}
+
+.barra{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+
+footer{
+    background-color: #e68e8e;
+    text-align: center;
+    padding: 20px;
+}
+
+ul.nombres{
+    display: flex;
+    justify-content: center;
+    color: #d74b4b;
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body.register{
+  background-color: #1c1b1b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.formulario{
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.formulario-container{
+    background-color: #171717;
+    padding: 60px 50px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 420px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.formulario-container h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #d74b4b ;
+    font-size: 30px;
+
+}
+
+label{
+    margin-bottom: 6px;
+    font-weight: 500px;
+    color: #d74b4b;
+    font-size: 14px;
+}
+
+.email{
+    padding: 12px;
+    margin-bottom: 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #e68e8e;
+    color: aqua;
+}
+
+.contrasena{
+    padding: 12px;
+    margin-bottom: 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #e68e8e;
+    color: aqua;
+}
+
+
+form.registro{
+    display: flex;
+    flex-direction: column;
+}
+
+.boton-container{
+    background-color: #e68e8e;
+    text-align: center;
+    padding: 12px;
+    border-radius: 6px;
+    width: 100%;
+    text-decoration: #d74b4b;
+
+}
+
+.registrarme{
+    background-color: #e68e8e;
+    text-align: center;
+    padding: 6px;
+}
+
+.terminos{
+    margin-right: 10px;
+    background-color: #ccc;
+
+}
+
+.terminos-container{
+     display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.login-link{
+     margin-top: 25px;
+  text-align: center;
+  color: #d74b4b;
+  text-decoration: none;
+}
