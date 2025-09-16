@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+article{
+    background-color:lightgreen;
+    width: 150px;
+    padding: 15px;
+    border:2px ;
+    margin: 15px;
+}
+
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+    
+
+
+.img{
+    height: 150px;
+}
+
+.personaje{
+    background-color: rgb(122, 227, 227);
+    margin: 15px;
+    padding: 15px;
+    width: 150px;
+
+}
+.personaje.shrek{
+    height: 20px;
+}
+.personaje.shrek{
+    height: 150px
+}
+.personaje.shrek{
+    height: 250px;
+}
+.personaje.shrek{
+    height: 250px;
+}
+
+
+
+
+
