@@ -6,50 +6,54 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
+<body class="body-login">
     <header>
         <div>
-            <img class="img" src="img/logo.png" alt="logo" width="150px">
+            <img class="img-logo" src="img/logo.png" alt="logo" width="150px">
         </div>
 
         
             <form class="busqueda" action="search-results.html" method="GET">
                 <input type="text" name="barra" placeholder="buscar" value="" required>
-                <button type="submit">buscar</button>
+                <button class="buscador" type="submit">buscar</button>
             </form>
             <nav class="barra">
                 <a href="index.html">home</a>
+                <p>/</p>
                 <a href="login.html">login</a>
             </nav>
         </nav>
     </header>
 
-    <nav class="barra2">
-     <form class="registro"action="register.html" method="get">
-     <div>
-            <label class="email" for="email">Email:</label>
-            <input id="email" type="email" name="email" value="">
-        </div>
-         <div>
-            <label class="contrasena" for="contrasena">contrasena:</label>
-            <input id="contrasena" type="contrasena" name="contrasena" value="">
-        </div>
+    <main class="formulario">
+        <div class="formulario-container">
+            <h2>Login</h2>
 
-        <button type="submit">ingresar</button>
-      
-        
-        <div class="no tengo cuenta">
-        <a href="register.html">
-        no tengo cuenta 
-        </a>
+            <form class="registro" action="index.html" method="get">
+                <div class="email-container">
+                    <label class="email" for="email">Email:</label>
+                    <input class="email" id="email" type="email" name="email" value="">
+                </div>
+                <div class="contrasena-container">
+                    <label class="contrasena" for="contrasena">contrasena:</label>
+                    <input class="contrasena" id="contrasena" type="contrasena" name="contrasena" value="">
+                </div>
+                <div class="boton-container">
+                    <a href="index.html"><button type="submit">ingresar </button></a>
+                </div>
+            </form>
         </div>
+    </main>
 
        <footer>
  <ul class="nombres">
  <li>Bautista Lemoine</li>
  <li>Lucca Torlasco</li>
- </ul>
-</footer>   
+        no tengo cuenta 
+        </a>
+        </div>
+    </div>
+    </main>  
     
 </body>
 </html>
