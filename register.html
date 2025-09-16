@@ -6,51 +6,65 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-     <header>
+<body class="register">
+   <header>
         <div>
-            <img class="img" src="img/logo.png" alt="logo" width="150px">
+            <img class="img-logo" src="img/logo.png" alt="logo" width="150px">
         </div>
 
         
             <form class="busqueda" action="search-results.html" method="GET">
                 <input type="text" name="barra" placeholder="buscar" value="" required>
-                <button type="submit">buscar</button>
+                <button class="buscador" type="submit">buscar</button>
             </form>
             <nav class="barra">
                 <a href="index.html">home</a>
+                <p>/</p>
                 <a href="login.html">login</a>
             </nav>
         </nav>
     </header>
-    <nav class="barra2">
+      
+
+    <main class="formulario">
+        <div class="formulario-container">
+            <h2>Registro</h2>
+
      <form class="registro"action="register.html" method="get">
-     <div>
-            <label for="email">Email:</label>
-            <input id="email" type="email" name="email" value="">
+         <div class="email-container">
+            <label  for="email">Email:</label>
+            <input class="email" id="email" type="email" name="email" value="">
         </div>
-         <div>
+
+         <div class="contrasena-container">
             <label for="contrasena">contrasena:</label>
-            <input id="contrasena" type="contrasena" name="contrasena" value="">
+            <input class="contrasena" id="contrasena" type="contrasena" name="contrasena" value="">
         </div>
-          <div>
+
+          <div class="repetir-contrasena-container">
             <label for="repetir contrasena">confirma contrasena:</label>
-            <input id="contrasena" type="contrasena" name="contrasena" value="">
+            <input class="contrasena" id="contrasena" type="contrasena" name="contrasena" value="">
         </div>
-        <button type="submit">Registrame</button>
-       <div>
-       <label>
-           
-            <input type="checkbox" name="terminos" required>
+
+        <div class="boton-container">
+        <button class="registrarme" type="submit"><h4>Registrarme</h4></button>
+        </div>
+        
+       
+        <label class="terminos-container">
+            <input class="terminos" type="checkbox" name="terminos" required>
             Acepto terminos y condiciones
         </label>
-       </div>
+       
 
-        <div>
+        <div class="login-link">
         <a href="login.html">
             ya tengo una cuenta 
         </a>
         </div>
+    </div>
+    </main>
+
         <footer>
  <ul class="nombres">
  <li>Bautista Lemoine</li>
@@ -60,4 +74,4 @@
      </form>
     
 </body>
-</html>
+</html>ls
