@@ -1,16 +1,21 @@
 
 header{
-    background-color: #e68e8e;
+    background-color: #1E1E2F;
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
+}
 
 footer{
-    min-width: 100%;
+
+  background-color: #1E1E2F;
+    text-align: center;
+    padding: 20px;
 }
-    
-}
+
+
+
 
 .img-logo{
     border-radius: 20px;
@@ -35,11 +40,6 @@ footer{
 }
 
 
-footer{
-    background-color: #e68e8e;
-    text-align: center;
-    padding: 20px;
-}
 
 
 ul.nombres{
@@ -52,6 +52,7 @@ ul.nombres{
     display: flex;
     align-items: flex-start;
     align-items: stretch;
+    background-color: #F4F4F9;
 }
 
 .barra22{
@@ -60,7 +61,7 @@ ul.nombres{
 }
 
 aside{
-    background-color: #726a6a;
+    background-color:#2C2C3A;
     width: 200px;
     color: white;
     padding: 15px;
@@ -82,6 +83,7 @@ aside{
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
+    background-color: #F4F4F9;
 }
 
 main section{
@@ -95,12 +97,17 @@ main h2{
 }
 
 .producto1{
-    background: #fff;
+    background:#eae9e9;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(123, 117, 117, 0.1);
     padding: 15px;  
     width: 200px;
+}
+
+.iphone17{
+    border-radius: 20px;
+    width: 100%;
 }
 
 * {
@@ -178,24 +185,24 @@ form.registro{
 }
 
 .boton-container{
-    background-color: #e68e8e;
+    background-color:#3BAFDA;
     text-align: center;
     padding: 12px;
     border-radius: 6px;
     width: 100%;
-    text-decoration: #d74b4b;
+    text-decoration: #3BAFDAb;
 
 }
 
 .registrarme{
-    background-color: #e68e8e;
+    background-color:#3BAFDA;
     text-align: center;
     padding: 6px;
 }
 
 .terminos{
     margin-right: 10px;
-    background-color: #ccc;
+    background-color:#3BAFDA;
 
 }
 
