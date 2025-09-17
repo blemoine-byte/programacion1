@@ -52,7 +52,7 @@ ul.nombres{
     display: flex;
     justify-content: center;
     color: #3BAFDA;
-    list-style: none;
+    list-style-type: none;
 }
 
 .container-principal{
@@ -65,6 +65,7 @@ ul.nombres{
 .barra22{
     display: flex;
     align-items: flex-start;
+    
 }
 
 aside{
@@ -75,6 +76,21 @@ aside{
     min-height: 100vh;
     height: auto;
     margin-right: 30px;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.lista-aside{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 0;
+}
+.lista-aside li{
+    margin-bottom: 15px;
+
 }
 
 
