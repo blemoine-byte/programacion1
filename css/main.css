@@ -13,6 +13,7 @@ footer{
     text-align: center;
     padding: 20px;
     color: #3BAFDA;
+    text-decoration: none;
 }
 
 
@@ -51,6 +52,7 @@ ul.nombres{
     display: flex;
     justify-content: center;
     color: #3BAFDA;
+    list-style: none;
 }
 
 .container-principal{
@@ -111,6 +113,9 @@ main h2{
     box-shadow: 0 2px 5px rgba(123, 117, 117, 0.1);
     padding: 15px;  
     width: 200px;
+    text-align: center;
+    font-size: 15px;
+
 }
 
 .iphone{
