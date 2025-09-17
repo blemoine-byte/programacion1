@@ -68,12 +68,13 @@ ul.nombres{
 aside{
     background-color:#2C2C3A;
     width: 200px;
-    color: white;
+    color: #3BAFDA;
     padding: 15px;
     min-height: 100vh;
     height: auto;
     margin-right: 30px;
 }
+
 
 
 .container11{
@@ -110,9 +111,11 @@ main h2{
     width: 200px;
 }
 
-.iphone17{
+.iphone{
     border-radius: 20px;
     width: 100%;
+   height: auto;
+    max-height: 180PX  ;
 }
 
 * {
