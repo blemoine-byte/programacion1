@@ -125,7 +125,7 @@ main h2{
 }
 
 body.register{
-  background-color: #1c1b1b;
+  background-color:  #f5f6fa;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -141,7 +141,7 @@ body.register{
 }
 
 .formulario-container{
-    background-color: #171717;
+    background-color: #1b1c30;
     padding: 60px 50px;
     border-radius: 12px;
     width: 100%;
@@ -156,7 +156,7 @@ body.register{
 .formulario-container h2{
     text-align: center;
     margin-bottom: 30px;
-    color: #6f6060 ;
+    color:#0077b6 ;
     font-size: 30px;
 
 }
@@ -164,7 +164,7 @@ body.register{
 label{
     margin-bottom: 6px;
     font-weight: 500px;
-    color: #d74b4b;
+    color: #3BAFDA;
     font-size: 14px;
 }
 
@@ -173,8 +173,8 @@ label{
     margin-bottom: 18px;
     border: none;
     border-radius: 6px;
-    background-color: #f2dddd;
-    color: aqua;
+    background-color: #e0e0e0;
+   
 }
 
 .contrasena{
@@ -182,8 +182,8 @@ label{
     margin-bottom: 18px;
     border: none;
     border-radius: 6px;
-    background-color: #e68e8e;
-    color: aqua;
+    background-color: #e0e0e0;
+    
 }
 
 
@@ -193,24 +193,29 @@ form.registro{
 }
 
 .boton-container{
-    background-color:#3BAFDA;
+    background-color:#e0e0e0;
     text-align: center;
     padding: 12px;
     border-radius: 6px;
     width: 100%;
-    text-decoration: #3BAFDA;
+   
 
 }
 
 .registrarme{
-    background-color:#3BAFDA;
+    width: 100%;
+    height: auto;
+    background-color:#e0e0e0;
     text-align: center;
     padding: 6px;
+    border: none;
+    color: #3BAFDA;
 }
 
 .terminos{
     margin-right: 10px;
-    background-color:#3BAFDA;
+    background-color:#0077b6;
+    color: #0077b6;
 
 }
 
@@ -218,13 +223,14 @@ form.registro{
      display: flex;
   align-items: center;
   margin-bottom: 20px;
+  
 }
 
 .login-link{
      margin-top: 25px;
   text-align: center;
-  color: #d74b4b;
-  text-decoration: none;
+  color: #0077b6;
+ text-decoration: none;
 }
 .body-login {
   background-color: #1c1b1b;
