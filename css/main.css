@@ -90,6 +90,8 @@ aside{
     gap: 15px;
     flex-wrap: wrap;
     background-color: #F4F4F9;
+    justify-content: center;
+    
 }
 
 main section{
@@ -115,7 +117,7 @@ main h2{
     border-radius: 20px;
     width: 100%;
    height: 100px;
-    max-height: 180PX  ;
+
 }
 
 * {
