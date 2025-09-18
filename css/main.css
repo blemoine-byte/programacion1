@@ -1,6 +1,6 @@
 
 header{
-    background-color: #1E1E2F;
+    background-color: #0B132B;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -179,7 +179,7 @@ body.register{
 .formulario-container h2{
     text-align: center;
     margin-bottom: 30px;
-    color:#0077b6 ;
+    color:#0099CC ;
     font-size: 30px;
 
 }
@@ -216,7 +216,7 @@ form.registro{
 }
 
 .boton-container{
-    background-color:#e0e0e0;
+    background-color:#F3F3F5;
     text-align: center;
     padding: 12px;
     border-radius: 6px;
@@ -228,11 +228,12 @@ form.registro{
 .registrarme{
     width: 100%;
     height: auto;
-    background-color:#e0e0e0;
+    background-color:#F3F3F5;
     text-align: center;
     padding: 6px;
     border: none;
     color: #3BAFDA;
+    
 }
 
 .terminos{
@@ -256,7 +257,7 @@ form.registro{
  text-decoration: none;
 }
 .body-login {
-  background-color: #1c1b1b;
+  background-color: #F3F3F5;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
