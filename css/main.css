@@ -7,6 +7,8 @@ header{
     align-items: center;
 }
 
+
+
 footer{
 
   background-color: #1E1E2F;
@@ -264,4 +266,22 @@ form.registro{
   align-items: center;
   justify-content: center;
   height: 100%;
+}
+.container {
+   display: flex;
+   
+}
+.iphoneproducto{
+    justify-content: center;
+    width:80% ;
+    padding-top: 30px;
+}
+.producto {
+    text-align: left;
+    
+}
+.precio {
+   text-align: left; 
+   margin-top: 5px;
+   margin-bottom: 5px;
 }
