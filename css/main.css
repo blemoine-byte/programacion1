@@ -90,8 +90,9 @@ aside{
     list-style-type: none;
     text-align: center;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 10px;
     padding: 0;
+    font-family: 'montserrat', sans-serif;
 }
 .lista-aside li{
     margin-bottom: 15px;
@@ -125,6 +126,8 @@ main h2{
     text-align: center;
     margin-bottom: 25px;
     padding-bottom: 5px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: bold;
 }
 
 .producto1{
@@ -135,9 +138,27 @@ main h2{
     padding: 15px;  
     width: 200px;
     text-align: center;
-    font-size: 15px;
-    font-family: 'lato', sans-serif;
+    font-size: 13px;
+    font-family: 'nunito sans', sans-serif;
+  
+}
 
+article h3{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #151516;
+    font-family: 'montserrat', sans-serif;
+    font-weight: bold;
+}
+
+article h4{
+    margin-top: 3px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #151516;
+    font-family: 'mulish', sans-serif;
+    
 }
 
 .iphone{
