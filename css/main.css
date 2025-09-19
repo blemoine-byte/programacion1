@@ -298,15 +298,19 @@ form.registro{
 }
 .iphoneproducto{
     justify-content: center;
-    width:80% ;
+    width:70% ;
     padding-top: 30px;
 }
 .producto {
-    text-align: left;
+    width: 70%;
     
 }
 .precio {
    text-align: left; 
    margin-top: 5px;
    margin-bottom: 5px;
+}
+.stock {
+    font-weight: bolder;
+    padding-top: 1%;
 }
