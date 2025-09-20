@@ -293,8 +293,10 @@ form.registro{
   height: 100%;
 }
 .container {
-   display: flex;
-   
+   display: block;
+   width: 670%;
+   width: 70%;
+  
 }
 .iphoneproducto{
     justify-content: center;
@@ -302,7 +304,7 @@ form.registro{
     padding-top: 30px;
 }
 .producto {
-    width: 70%;
+    width: 60%;
     
 }
 .precio {
@@ -313,4 +315,22 @@ form.registro{
 .stock {
     font-weight: bolder;
     padding-top: 1%;
+}
+.review {
+    background-color: bisque;
+    margin-top: 30px;
+    display: grid;
+    width: 10%;
+    box-sizing: border-box;
+}
+.producto2 {
+    background:#eae9e9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(123, 117, 117, 0.1);
+    padding: 15px;  
+    width: 200px;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'nunito sans', sans-serif;
 }
