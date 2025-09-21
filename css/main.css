@@ -215,27 +215,28 @@ body.register{
 label{
     margin-bottom: 6px;
     font-weight: 500px;
-    color: #3BAFDA;
+    color: #0077b6;
     font-size: 14px;
 }
 
 .email{
-    padding: 12px;
+    padding: 6px;
     margin-bottom: 18px;
     border: none;
-    border-radius: 6px;
-    background-color: #e0e0e0;
+    
+    
    
 }
 
 .contrasena{
-    padding: 12px;
+   
     margin-bottom: 18px;
     border: none;
-    border-radius: 6px;
-    background-color: #e0e0e0;
-    
+    padding: 6px
 }
+
+    
+
 
 
 form.registro{
@@ -244,17 +245,30 @@ form.registro{
 }
 
 .boton-container{
-    background-color:#F3F3F5;
+   
     text-align: center;
     padding: 12px;
     border-radius: 6px;
     width: 100%;
-   
+    margin-bottom: 18px;
+    font-weight: bold;
+    
 
 }
 
+.ingresar{
+    width: 100%; 
+    height: auto;
+    background-color: #1b1c30;
+    text-align: center;
+    padding: 6px;
+    border: none;
+    color: #0077b6;
+    font-weight: bold;
+}
+
 .registrarme{
-    width: 100%;
+    width: 100%; 
     height: auto;
     background-color:#F3F3F5;
     text-align: center;
@@ -295,7 +309,7 @@ form.registro{
 }
 .container {
    display: block;
-   width: 670%;
+   width: 670px;
    width: 70%;
   
 }
