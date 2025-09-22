@@ -316,10 +316,12 @@ form.registro{
    width: 70%;
   
 }
-.iphoneproducto{
-    justify-content: center;
-    width:70% ;
-    padding-top: 30px;
+.iphoneproducto {
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+    font-weight: bold;
+    margin-bottom: 25px;
+    padding-bottom: 5px;
 }
 .producto {
     width: 60%;
@@ -356,16 +358,25 @@ form.registro{
     text-align: center;
     margin-bottom: 25px;
     padding-bottom: 5px;
-    font-family: 'montserrat', sans-serif;
+    font-family: 'nunito sans', sans-serif;
     font-weight: bold;
 }
 .boxa {
     padding: 20px;
     max-width: 1200px;
     flex: 1;
-}
-.iphone17 {
+    }
+
+.Iphone5 {
     border-radius: 20px;
-    width: 100%;
-    height: 100px;
+    width: 100%; 
+    height: 100px; 
 }
+.container15 {
+     display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    background-color: #F4F4F9;
+    justify-content: center;
+}
+
