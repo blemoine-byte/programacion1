@@ -217,13 +217,14 @@ label{
     font-weight: 500px;
     color: #0077b6;
     font-size: 14px;
+    max-width: 150px
 }
 
 .email{
     padding: 6px;
     margin-bottom: 18px;
     border: none;
-    
+    width: 100%;
     
    
 }
@@ -232,7 +233,9 @@ label{
    
     margin-bottom: 18px;
     border: none;
-    padding: 6px
+    padding: 6px;
+    width: 100%;
+    
 }
 
     
