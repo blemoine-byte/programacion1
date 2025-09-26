@@ -314,8 +314,8 @@ form.registro {
 
 .producto111 {
 
-width: 600px;
-   
+    width: 600px;
+
 
 }
 
@@ -346,11 +346,15 @@ width: 600px;
 }
 
 .review {
-    background-color: bisque;
+    background-color: #E3F6FF;
     margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
     display: grid;
-    width: 100%;
+    width: 60%;
     box-sizing: border-box;
+    border: 2px solid #000000;
+    box-shadow: 0 2px 5px rgba(123, 117, 117, 0.1);
 }
 
 .producto2 {
@@ -391,6 +395,16 @@ width: 600px;
     flex-wrap: wrap;
     background-color: #F4F4F9;
     justify-content: center;
+}
+
+.review p+p {
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.txtcomentario1 {
+    margin-top: 10px;
+
 }
 
 @media (max-width: 600px) {
