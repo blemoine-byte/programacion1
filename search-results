@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,22 +8,23 @@
     <link rel="stylesheet" href="css/main.css">
 
 </head>
+
 <body>
-<header>
+    <header>
         <div>
             <a href="index.html"><img class="img-logo" src="img/logo3.png" alt="logo" width="150px"></a>
         </div>
 
-        
-            <form class="busqueda" action="search-results.html" method="GET">
-                <input type="text" name="barra" placeholder="buscar" value="" required>
-                <button class="buscador" type="submit">buscar</button>
-            </form>
-            <nav class="barra">
-                <a href="index.html">home</a>
-                <a>/</a>
-                <a href="login.html">login</a>
-            </nav>
+
+        <form class="busqueda" action="search-results.html" method="GET">
+            <input type="text" name="barra" placeholder="buscar" value="" required>
+            <button class="buscador" type="submit">buscar</button>
+        </form>
+        <nav class="barra">
+            <a href="index.html">home</a>
+            <a>/</a>
+            <a href="login.html">login</a>
+        </nav>
         </nav>
     </header>
 
@@ -30,13 +32,14 @@
         <h1> No se pudo encontrar</h1>
     </div>
 
-<footer>
- <ul class="nombres">
- <li>Bautista Lemoine</li>
- <a>/</a>
- <li>Lucca Torlasco</li>
- </ul>
-</footer>
-    
+    <footer>
+        <ul class="nombres">
+            <li>Bautista Lemoine</li>
+            <a>/</a>
+            <li>Lucca Torlasco</li>
+        </ul>
+    </footer>
+
 </body>
+
 </html>
