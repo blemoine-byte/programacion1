@@ -12,18 +12,18 @@
 <body>
     <header>
         <div>
-            <a href="index.html"><img class="img-logo" src="img/logo3.png" alt="logo" width="150px"></a>
+            <a href="./index.html"><img class="img-logo" src="img/logo3.png" alt="logo" width="150px"></a>
         </div>
 
 
-        <form class="busqueda" action="search-results.html" method="GET">
+        <form class="busqueda" action="./search-results.html" method="GET">
             <input type="text" name="barra" placeholder="buscar" value="" required>
             <button class="buscador" type="submit">buscar</button>
         </form>
         <nav class="barra">
-            <a href="index.html">home</a>
+            <a href="./index.html">home</a>
             <a>/</a>
-            <a href="login.html">login</a>
+            <a href="./login.html">login</a>
         </nav>
         </nav>
     </header>

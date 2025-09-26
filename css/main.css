@@ -312,10 +312,10 @@ form.registro {
     height: 100%;
 }
 
-.container {
+.producto111 {
 
-
-    width: 70%;
+width: 600px;
+   
 
 }
 
@@ -349,7 +349,7 @@ form.registro {
     background-color: bisque;
     margin-top: 30px;
     display: grid;
-    width: 10%;
+    width: 100%;
     box-sizing: border-box;
 }
 
