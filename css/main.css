@@ -400,8 +400,7 @@ width: 600px;
     .container-principal,
     .boxa,
     .barra22 {
-        flex-direction: column;
-        ;
+        flex-direction: wrap;
         width: 100%;
     }
 
