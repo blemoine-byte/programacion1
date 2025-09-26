@@ -380,3 +380,22 @@ form.registro{
     background-color: #F4F4F9;
     justify-content: center;
 }
+@media (max-width: 600px) {
+  header, footer, .container-principal, .boxa, .barra22 {
+    flex-direction: column;
+    width: 100%;
+  }
+  .producto2 {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .categoryhead h1 {
+    font-size: 120%;
+  }
+  .img-logo {
+    width: 100px;
+  }
+  .busqueda input {
+    width: 70%;
+  }
+}
