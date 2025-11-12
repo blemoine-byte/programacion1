@@ -1,4 +1,5 @@
-let container= document.querySelector (".container2")
+let topcontainer= document.querySelector (".container-top")
+let randomcontainer=document.querySelector (".container-random")
 
 const URL="https://dummyjson.com/products/category/smartphones"
 
@@ -8,23 +9,33 @@ fetch(URL)
 
 })
 
-then(function(data) {
-    let resultados =data;
+.then(function(data) {
+    let resultados =data.products;
 
     console.log(resultados);
 
     for(let i=0; i<resultados.length;i++){
-        container.innerHTML += ` <article>
+        topcontainer.innerHTML += ` 
+        <article class="card">
 
-        <img src=${resultados[i].image}alt=''
-        <h3>nombre: ${resultados[i].name}</h3>
-        <p>descripcion: ${resultados[i].descripcion}</p>
-        <h4>precio: ${resultados[i].precio}</h4>
+        <img class="product-img" src="${resultados[i].images[0] }"alt=''
+        <h3>${resultados[i].title}</h3>
+        <p> ${resultados[i].description}</p>
+        <h4>${resultados[i].price}</h4>
         <a href="${resultados[i].id}" >ir a detalle</a>
     
 
 
 
         </article> ` 
+
+        
     
 }})
+.catch(function(error){
+    console.error('there was a problem with the fetch operation:',error);
+}
+)
+
+
+
