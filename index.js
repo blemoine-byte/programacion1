@@ -1,9 +1,13 @@
+
+
+
 let topcontainer= document.querySelector (".container-top")
 let randomcontainer=document.querySelector (".container-random")
 
-const URL="https://dummyjson.com/products/category/smartphones"
+let URLtopprudctos="https://dummyjson.com/products/category/smartphones"
 
-fetch(URL)
+
+fetch(URLtopprudctos)
 .then(function(response){
     return response.json();
 
@@ -36,6 +40,7 @@ fetch(URL)
     console.error('there was a problem with the fetch operation:',error);
 }
 )
+
 
 
 
