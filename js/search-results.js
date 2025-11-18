@@ -19,7 +19,7 @@ fetch(url)
             let resultados = "";
 
             if (!data.products || data.products.length == 0) {
-                resultados = "<p>No se encontraron resultado</p>";
+                resultados = "<h1><p>No se encontraron resultados</p></h1>";
 
             }
 
