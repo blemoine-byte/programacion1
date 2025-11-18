@@ -10,8 +10,9 @@ let url = `https://dummyjson.com/products/search?q=${termino}`
 
 fetch(url)
     .then(function (response) {
-        return response.json()
-    }
+        return response.json();
+
+    })
 
 
         .then(function (data) {
@@ -37,14 +38,11 @@ fetch(url)
                </article>`;
 
                 }
-
             }
-            resultadoscontainer.innerHTML = resultados;
+             resultadoscontainer.innerHTML = resultados;
 
-        }
-
-        ))
+        })
 
     .catch(function (error) {
         console.error("Hubo un error en la operacion fetch:", error);
-    })
+    });

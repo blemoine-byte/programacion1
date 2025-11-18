@@ -23,6 +23,7 @@ footer {
     color: #3BAFDA;
     text-decoration: none;
     width: 100%;
+    margin-top: auto;
 }
 
 .product-img{
@@ -42,6 +43,12 @@ footer {
         box-shadow: 0 2px 5px rgba(123, 117, 117, 0.1);
         font-size: 16px;
     }  
+
+    .body-search {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
 
 
 a {
@@ -156,7 +163,7 @@ aside {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  padding: 20px
+  padding: 20px;
 }
 
 
@@ -179,18 +186,7 @@ main h2 {
     text-align: center
 }
 
-.producto1 {
-    background: #eae9e9;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(123, 117, 117, 0.1);
-    padding: 15px;
-    width: 200px;
-    text-align: center;
-    font-size: 13px;
-    font-family: 'nunito sans', sans-serif;
 
-}
 
 article h3 {
     margin-top: 10px;
