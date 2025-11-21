@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,6 +31,7 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 
+
 <body class="body1">
     <header>
         <div>
@@ -37,17 +39,24 @@
         </div>
 
 
+
+
         <form class="busqueda" action="search-results.html" method="GET">
             <input type="text" name="barra" placeholder="buscar" value="" required>
             <button class="buscador" type="submit">buscar</button>
         </form>
         <nav class="barra">
-            <a href="./index.html">home</a>
+            <a href="./index.html" class="link-home">home</a>
             <a>/</a>
-            <a href="./login.html">login</a>
+            <a href="./login.html"  class="link-login">login</a>
+
+
+            <p class="saludo-titulo"></p>
+            <a href="#" id="logout-link" style="display:none">log out</a>
         </nav>
         </nav>
     </header>
+
 
     <div class="container-principal">
         <aside class="barra22">
@@ -63,24 +72,39 @@
             </nav>
         </aside>
 
+
         <main class="container11">
-            <div class="titulo1">
+            <section class="saludo-usuario">
+                <p class="mensaje"></p>
+               
+                </section>
+         
+                <div class="titulo1">
                 <h2>celulares</h2>
             </div>
             <section class="container-celulares">
 
-  
+
+ 
             </section>
+
 
             <div class="titulo1">
                 <h2>Accesorios</h2>
             </div>
 
+
             <section class="container-accesories">
 
+
             </section>
+
+
+           
         </main>
     </div>
+
+
 
 
     <footer>
@@ -91,8 +115,11 @@
         </ul>
     </footer>
 
-    <script src="./js/index.js"></script>
 
+    <script src="./js/index.js"></script>
+    <script src="./js/saludo.js"></script>
+    <script src="./js/logout.js"></script>
 </body>
+
 
 </html
