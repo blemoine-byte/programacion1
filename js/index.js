@@ -29,7 +29,8 @@ fetch(URLcelulares)
         <h3>${resultados[i].title}</h3>
         <p> ${resultados[i].description}</p>
         <h4>${resultados[i].price}</h4>
-        <a href="${resultados[i].id}" >ir a detalle</a>
+        <a href="./product.html?id=${resultados[i].id}">ir a detalle</a>
+
     
       </article> ` 
 
@@ -64,7 +65,8 @@ fetch(URLaccsessories)
         <h3>${resultados[i].title}</h3>
         <p> ${resultados[i].description}</p>
         <h4>${resultados[i].price}</h4>
-        <a href="${resultados[i].id}" >ir a detalle</a>
+        <a href="./product.html?id=${resultados[i].id}">ir a detalle</a>
+
     
       </article> ` 
 
